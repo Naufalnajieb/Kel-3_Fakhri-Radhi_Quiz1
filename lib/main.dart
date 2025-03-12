@@ -24,7 +24,7 @@ class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Quiz 1"), centerTitle: true,),
+      appBar: AppBar(title: Text("Quiz 1 - Kel 3 Prak"), centerTitle: true,),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,

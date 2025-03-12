@@ -11,7 +11,7 @@
           children: [
             Container(
               padding: const EdgeInsets.all(16.0),
-              color: Colors.purple,
+              color: Colors.purple[200],
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -65,7 +65,7 @@ class HealthServiceItem extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
-              color: Colors.purple,
+              color: Colors.purple[200],
               shape: BoxShape.circle,
             ),
             child: Icon(icon, size: 50, color: Colors.white),
